@@ -1,4 +1,6 @@
-class Adapter {
+import React from 'react';
+
+class Adapter extends React.Component {
 
   static getShows (){
     return fetch("http://api.tvmaze.com/shows")
